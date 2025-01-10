@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover,
-.nav a.active {
+nav a.active {
     color: var(--accent-color);
 }
 
@@ -70,7 +70,7 @@ nav a:hover,
 .BG {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('coffee-shop.jpg') center/cover;
+                url('images/coffee-shop.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
