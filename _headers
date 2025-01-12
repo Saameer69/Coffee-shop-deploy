@@ -16,3 +16,15 @@ Cache-Control: public, max-age=31536000, immutable
 
 /style.css
 Cache-Control: public, max-age=31536000, immutable
+
+# _headers
+
+/* 
+  Set long caching for JavaScript and CSS files 
+  (menu.min.js and style.min.css) 
+*/
+  /menu.min.js
+    Cache-Control: public, max-age=31536000, immutable
+  
+  /style.min.css
+    Cache-Control: public, max-age=31536000, immutable
