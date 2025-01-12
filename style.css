@@ -260,7 +260,7 @@ blockquote cite {
 
 /* Contact Page */
 .contact-page {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 100px auto;
     padding: 2rem;
 }
@@ -273,18 +273,25 @@ blockquote cite {
     padding: 3rem;
     border-radius: 10px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
 }
 
 @media (max-width: 768px) {
     .contact-container {
         grid-template-columns: 1fr; /* Stack the columns */
         gap: 2rem; /* Reduce gap between columns */
+        margin: 0,0;
     }
 
     .contact-form {
         padding: 2rem;
         width: 100%; /* Ensure form occupies full width */
     }
+
+    .contact-form {
+        padding: 0 10px; /* Adjust padding as needed */
+      }
+
 
     /* Ensure the form elements are responsive */
     .form-group input,
