@@ -4,7 +4,7 @@ User-agent: *
 Disallow: /private/
 Disallow: /admin/
 Disallow: /login/
-Sitemap: http://sameerp.com.np/sitemap.xml
+Sitemap: http://sameercoffeeshop.netlify.app/sitemap.xml
 
 # Allow the entire site to be indexed
 Allow: /
