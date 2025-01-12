@@ -1,0 +1,12 @@
+# Allow all search engines to crawl all content except for sensitive or private sections
+
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+
+# Allow the entire site to be indexed
+Allow: /
+
+# Sitemap URL (if you have one, otherwise remove this line)
+Sitemap: https://www.sameerp.com.np/sitemap.xml
