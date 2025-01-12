@@ -8,6 +8,7 @@ Sitemap: http://sameercoffeeshop.netlify.app/sitemap.xml
 
 # Allow the entire site to be indexed
 Allow: /
+Sitemap: https://www.sameerp.com.np/sitemap.xml
 
 # Sitemap URL (if you have one, otherwise remove this line)
 Sitemap: https://www.sameerp.com.np/sitemap.xml
