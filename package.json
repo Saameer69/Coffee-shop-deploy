@@ -9,6 +9,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "cssnano": "^7.0.6",
+    "terser": "^5.37.0",
     "vite": "^5.4.2"
+  },
+  "description": "A simple coffee shop website created using HTML, CSS & JS, Using help and references from web & AI.\r --Sameer Panta--",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0"
   }
 }
