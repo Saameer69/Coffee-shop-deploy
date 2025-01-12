@@ -108,7 +108,7 @@ nav {
 .hero {
     padding: 2rem;
 }
-.hero h2 {
+.hero h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.5rem;
     margin-bottom: 1rem;
@@ -138,7 +138,7 @@ nav {
 
 
 /* Menu Page */
-.menu-page h2 {
+.menu-page h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     text-align: center;
@@ -218,7 +218,7 @@ nav {
     margin-bottom: 4rem;
 }
 
-.about-intro h2 {
+.about-intro h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
@@ -287,8 +287,8 @@ blockquote cite {
     }
 }
 
-.contact-info h2,
-.contact-form h2 {
+.contact-info h1,
+.contact-form h1 {
     font-family: 'Playfair Display', serif;
     margin-bottom: 2rem;
 }
@@ -376,13 +376,17 @@ footer {
     gap: 2rem;
 }
 
-.no-underline {
+a.no-underline {
     text-decoration: none;
-    color: var(--white);
-}
-
-.no-underline:hover {
-    color: orange;
+  }
+  
+  .underline {
+    text-decoration: underline;
+    color: white;
+  }
+  
+.underline:hover {
+    color: #007bff;
 }
 
 .no-underline-contact {
