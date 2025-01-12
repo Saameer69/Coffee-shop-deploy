@@ -145,6 +145,7 @@ nav {
     margin-bottom: 4rem;
 }
 
+
 .menu-page {
     max-width: 1200px;
     margin: 100px auto;
@@ -219,7 +220,13 @@ nav {
 }
 
 .about-intro h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-intro h2 {
+    font-family: serif;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
 }
@@ -287,9 +294,13 @@ blockquote cite {
     }
 }
 
-.contact-info h1,
-.contact-form h1 {
-    font-family: 'Playfair Display', serif;
+.contact-info h1{
+    font-family: 'Playfair Display';
+    margin-bottom: 2rem;
+}
+
+.contact-form h2 {
+    font-family: serif;
     margin-bottom: 2rem;
 }
 
