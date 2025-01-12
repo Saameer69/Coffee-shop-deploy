@@ -1,3 +1,13 @@
+
+document.addEventListener("DOMContentLoaded", () => {
+    const lazyBackgrounds = document.querySelectorAll(".lazy-bg");
+
+    lazyBackgrounds.forEach((bg) => {
+        const bgUrl = bg.getAttribute("data-bg");
+        bg.style.backgroundImage = `url(${bgUrl})`;
+        bg.classList.add("loaded");
+    });
+});
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
