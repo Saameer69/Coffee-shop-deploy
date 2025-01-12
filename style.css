@@ -376,6 +376,24 @@ footer {
     gap: 2rem;
 }
 
+.no-underline {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.no-underline:hover {
+    color: orange;
+}
+
+.no-underline-contact {
+    text-decoration: none;
+    color: black;
+}
+
+.no-underline-contact:hover {
+    color: orange;
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
