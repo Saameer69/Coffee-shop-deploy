@@ -4,6 +4,7 @@ User-agent: *
 Disallow: /private/
 Disallow: /admin/
 Disallow: /login/
+Sitemap: http://sameerp.com.np/sitemap.xml
 
 # Allow the entire site to be indexed
 Allow: /
